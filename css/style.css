@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.recetas{
+    margin-left: 15%;
+}
+
+.encabezado {
+    display: block;
+    text-align: center;
+    background-color: #FAEBD7;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.referencia {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+background-color: #FAEBD7;
+color: black;
+text-align: center;
+}
+
+h2 {
+background-color: #FAEBD7;   
+text-align: center;
+}
+
+ul li::marker {
+  color: blue;
+  font-size: 1.5em;
+}
+o1 li{
+    background-color: #662974;
+}
+
+ol {
+  list-style-type: upper-roman;  
+  background: #FAEBD7;
+  padding: 40px;
+}
+
+ol li::marker {
+  color: blueviolet;
+  font-size: 1.2em;
+  font-weight: bold;
+}
